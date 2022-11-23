@@ -1,0 +1,162 @@
+@charset "UTF-8";
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.item-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 1rem 0rem 1rem;
+  cursor: pointer;
+}
+
+.item-photo {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: auto;
+  max-width: 100%;
+  height: 150px;
+}
+
+.itemcard-title, .itemcard-price {
+  width: 90%;
+  cursor: pointer;
+  color: teal;
+  font-weight: 400;
+}
+
+.itemcard-title:hover, .itemcard-price:hover {
+  font-weight: 400;
+  color: orangered;
+  text-decoration: underline;
+}
+
+.star {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  color: #bdbdbd;
+}
+
+.rating {
+  margin-top: -8px;
+  overflow: hidden;
+  white-space: nowrap;
+  left: 0;
+}
+.rating span {
+  display: flex;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  color: rgb(255, 136, 0);
+}
+.rating span:before {
+  content: "☆☆☆☆☆";
+  position: absolute;
+  color: #bdbdbd;
+  z-index: -1;
+}
+
+.itemcard-price {
+  color: orangered;
+}
+
+.itemcard-price::hover {
+  text-decoration: none;
+}
+
+.itemcard-cart {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.itemcard-itemscounter {
+  color: darkslategrey;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.itemcard-itemscounter .span {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.itemcard-add-button {
+  width: 8rem;
+  height: 2rem;
+  border: none;
+  background-color: darkslategray;
+  border-radius: 7px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.itemcard-add-button:active {
+  opacity: 0.7;
+  transform: scale(0.9);
+}
+
+.itemcard-addremove-buttons {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.itemcard-minusplus-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid transparent;
+  background-color: darkslategray;
+  border-radius: 7px;
+  font-size: large;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.itemcard-minusplus-button:active {
+  opacity: 0.7;
+  transform: scale(0.9);
+}
+
+.itemcard-remove-container {
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+.itemcard-remove-container .itemcard-remove-button {
+  border-radius: 7px;
+  border: 1px solid transparent;
+  width: 10.5rem;
+  height: 2rem;
+  font-size: medium;
+  color: white;
+  background-color: darksalmon;
+  opacity: 1;
+}
+.itemcard-remove-container .itemcard-remove-button:active {
+  opacity: 0.7;
+  transform: scale(0.9);
+}
+
+.itemcard-linkto {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  flex-direction: column;
+}/*# sourceMappingURL=itemCard.css.map */

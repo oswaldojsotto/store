@@ -1,0 +1,142 @@
+.footer-main {
+    padding-left: 2rem;
+    margin: auto;
+    font-size: medium;
+    margin-top: -0.3rem;
+    padding-bottom: 3rem;
+    background-color: #14433d;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: #ffffff;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-right: 2rem;
+}
+
+.shoplinks-title {
+    cursor: default;
+    margin-bottom: 0.5rem;
+}
+
+.link {
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+.link:hover {
+    transition: 300ms;
+    color: goldenrod;
+}
+
+//--------------------------------------------subscribe section
+
+.footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    padding-right: 2rem;
+}
+
+.subscribe-message {
+    cursor: default;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: medium;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.subscribe-buttons-container {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.input-email {
+    margin-right: 0.5rem;
+    height: 3rem;
+    outline: none;
+    padding-left: 1rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.input-email::placeholder {
+    font-size: 1.2rem;
+    color: #14433d;
+    font-weight: 600;
+}
+
+.subscribe-button {
+    background-color: goldenrod;
+    color: #14433d;
+    border-radius: 2rem;
+    outline: none;
+    height: 3rem;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.subscribe-button:hover {
+    cursor: pointer;
+    transition: 300ms;
+    background-color: rgb(211, 181, 106);
+}
+
+.socialmediacontainer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.media-button {
+    padding: 0rem 1rem;
+    transform: scale(1.5);
+}
+
+.media-button:hover {
+    cursor: pointer;
+    transition: 300ms;
+    color: goldenrod;
+}
+
+//----------------------------------------------bottom bar
+
+.footer-bottom-bar {
+    background-color: #14433d;
+    height: 7rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    color: #ffffff;
+    font-size: medium;
+    padding: 0rem 1rem;
+}
+
+.bottom-rights {
+    cursor: default;
+    font-size: 0.9rem;
+    letter-spacing: -0.01px;
+    font-weight: 600;
+}
+
+.bottom-links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bottom-items {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.bottom-items:hover {
+    transition: 300ms;
+    opacity: 1;
+}

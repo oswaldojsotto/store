@@ -1,0 +1,360 @@
+.home-main-container {
+    width: 100%;
+    background-color: #fdf7e7;
+}
+
+.home-landing-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+
+    width: 100%;
+    height: 120vh;
+    margin-top: -4rem;
+}
+
+.home-landing-container {
+    display: flex;
+
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: transparent;
+    padding-top: 15rem;
+    width: 30%;
+    padding-left: 5rem;
+}
+.home-landing-title {
+    cursor: default;
+    font-family: "Lobster", cursive;
+    color: rgb(37, 63, 63);
+    font-size: xx-large;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+.home-landing-subtitle {
+    cursor: default;
+    color: rgb(37, 63, 63);
+    font-weight: bolder;
+}
+
+.home-landing-shop-button {
+    background-color: rgb(37, 63, 63);
+    border: 4px solid rgb(37, 63, 63);
+    height: 2.5rem;
+    border-radius: 4rem;
+    width: 70%;
+
+    font-size: large;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    transition: 300ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-landing-shop-button:hover {
+    cursor: pointer;
+    @extend .home-landing-shop-button;
+    background-color: transparent;
+    color: rgb(37, 63, 63);
+
+    transition: 300ms;
+}
+
+.button-container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.button-container-landing {
+    @extend .button-container;
+    justify-content: flex-start;
+}
+//------------------------------------------------------------------features section
+.shopping-features {
+    background-color: #fdf7e7;
+    width: 100%;
+    z-index: 0;
+    height: auto;
+}
+.button-text {
+    color: white;
+    text-decoration: none;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10rem;
+    background-color: #fdf7e7;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 9rem;
+    height: 9rem;
+    background-color: #d6f2ee;
+    border-radius: 50%;
+    color: rgb(37, 63, 63);
+    font-size: small;
+    margin: auto;
+    text-align: center;
+}
+
+.feature-icon {
+    transform: scale(1.4);
+    margin-bottom: 0.7rem;
+}
+
+.feature-text {
+    cursor: default;
+    font-size: larger;
+    font-weight: 500;
+}
+//----------------------------------------------------timetoshop-section
+
+.timetoshop-container {
+    cursor: default;
+    background-color: #fdf7e7;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40rem;
+}
+
+.timetoshop-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    text-align: center;
+    width: 90%;
+    height: 80vh;
+    margin: 0.5rem;
+}
+
+.timetoshop-title {
+    font-family: "Lobster", cursive;
+    color: rgb(37, 63, 63);
+    font-size: xxx-large;
+    padding-top: 2rem;
+}
+
+.timetoshop-subtitle {
+    color: rgb(37, 63, 63);
+    padding-top: 2rem;
+    font-size: large;
+    font-weight: bold;
+}
+.timetoshop-text {
+    color: rgb(37, 63, 63);
+}
+.timetoshop-img-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    margin: 0.5rem;
+}
+
+.timetoshop-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.timetoshop-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//-------------------------------why shop section
+
+.whyshop-container {
+    cursor: default;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 4rem;
+    background-color: #fdf7e7;
+}
+.whyshop-title {
+    cursor: default;
+    font-family: "Lobster", cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-block: 3rem;
+    background-color: #fdf7e7;
+    color: rgb(37, 63, 63);
+    font-size: xxx-large;
+    text-align: center;
+}
+
+.whyshop-items-container {
+    height: 20rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.whyshop-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+    text-align: center;
+
+    .whyshop-item-title {
+        font-size: xxx-large;
+        color: rgb(37, 63, 63);
+        font-family: "Lobster", cursive;
+    }
+
+    .whyshop-item-text {
+        padding: 0.3rem;
+        color: rgb(37, 63, 63);
+        font-weight: 500;
+        span {
+            font-weight: bolder;
+        }
+    }
+}
+
+.whyshop-item1 {
+    @extend .whyshop-item;
+    background-color: #ffd8ca;
+}
+.whyshop-item2 {
+    @extend .whyshop-item;
+    background-color: #d6eddf;
+}
+.whyshop-item3 {
+    @extend .whyshop-item;
+    background-color: #d6f2ee;
+}
+.whyshop-item4 {
+    @extend .whyshop-item;
+    background-color: #faf4e6;
+}
+
+//------------------------------------------------------------------------- waves
+
+.wave1-container {
+    height: 5rem;
+    margin: auto;
+    margin-bottom: -0.5rem;
+}
+.wave1settings {
+    background-color: #f4f4f4;
+    z-index: -1;
+}
+
+.wave2-container {
+    display: block;
+    margin-bottom: -1rem;
+}
+
+.wave2settings {
+    background-color: #fdf7e7;
+    padding-top: -10rem;
+}
+
+.wave3-container {
+    background-color: #fdf7e7;
+}
+
+//--------------------------------------------------------------------------------swippersection
+
+.swipper {
+    flex-direction: row-reverse;
+    width: 100%;
+    background-color: #d6f2ee;
+    height: 15rem;
+}
+
+.swipper-container {
+    z-index: -3;
+    cursor: default;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.swipper-container:active {
+    cursor: grab;
+}
+
+.swipper-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    margin-left: 1rem;
+}
+
+.swipper-img {
+    border-radius: 50%;
+    height: 9rem;
+    width: 9rem;
+}
+
+.swipper-text-container {
+    width: 100%;
+    color: rgb(37, 63, 63);
+    margin-left: 3rem;
+    background-color: transparent;
+
+    .swipper-text-rating {
+        padding-block: 1rem;
+        margin-right: 1rem;
+    }
+    .swipper-rater-name {
+        font-weight: bold;
+    }
+}
+
+//----------------------------------------------------Q & A section
+
+.qa-container {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(253, 247, 231, 1) 55%, rgba(0, 0, 0, 0) 100%);
+}
+
+.qa-section {
+    background-color: transparent;
+    width: 90%;
+    margin: auto;
+    height: auto;
+    padding-bottom: 3rem;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.qa-items {
+    padding: 0.5rem 0rem;
+}
+
+.qa-shop-button {
+    margin-top: 5rem;
+    @extend .home-landing-shop-button;
+    width: 15rem;
+    justify-content: center;
+    margin: auto;
+}
+.qa-shop-button:hover {
+    @extend .qa-shop-button;
+}

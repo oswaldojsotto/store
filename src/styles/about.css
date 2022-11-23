@@ -1,0 +1,177 @@
+.about-container {
+  background-color: white;
+  margin-top: -4rem;
+  width: 100%;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 28rem;
+  background-color: #d7f3f0;
+}
+
+.about-wave-container {
+  transform: rotate(180deg);
+  background-color: #fdf7e7;
+}
+
+.about-wave {
+  margin-bottom: -1rem;
+}
+
+.about-wave-two {
+  transform: rotate(180deg);
+  color: gold;
+  background-color: #fdf7e7;
+  margin-bottom: -1rem;
+}
+
+.about-title {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 4rem;
+  font-family: "lobster", "sans-serif";
+  text-align: center;
+  color: #14433d;
+}
+
+.article-container {
+  background-color: #fdf7e7;
+  color: #14433d;
+  width: 100%;
+  text-align: center;
+}
+.article-container .article-title {
+  font-size: 3rem;
+  padding: 1rem;
+}
+.article-container .article-text {
+  margin: auto;
+  width: 80%;
+  font-size: large;
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.about-partners {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: #fdf7e7;
+}
+
+.partner-container {
+  background-color: #fdf7e7;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.partner-photo {
+  border-radius: 50%;
+  width: 14rem;
+  height: 14rem;
+}
+
+.partner-name {
+  padding-block: 0.2rem;
+  font-size: larger;
+  font-weight: 700;
+  color: #14433d;
+}
+
+.partner-charge {
+  font-size: large;
+  font-weight: 400;
+  color: #14433d;
+}
+
+.partner-bio {
+  cursor: pointer;
+  padding-top: 0.5rem;
+  font-size: large;
+  font-weight: 900;
+  color: #14433d;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.3rem;
+}
+
+.modal {
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  text-align: center;
+  border: none;
+}
+
+.about-mission {
+  height: auto;
+  background-color: #d7f3f0;
+}
+
+.mission-title, .mission-info-title {
+  margin-top: 0px;
+  font-size: 5rem;
+  font-family: "Lobster", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #14433d;
+  margin-bottom: 2rem;
+}
+
+.about-first-mission {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.about-second-mission {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.first-mission-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.mission-info-title {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.mission-text {
+  font-weight: 500;
+  font-size: large;
+  color: #14433d;
+}
+
+.mission-img-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.mission-img {
+  width: 100%;
+}
+
+.transfer {
+  width: 100%;
+  height: 10rem;
+  background-image: linear-gradient(#d7f3f0, white);
+}/*# sourceMappingURL=about.css.map */
