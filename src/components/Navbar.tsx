@@ -1,6 +1,7 @@
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import { NavLink } from "react-router-dom";
 import { useShoppingCart } from "../context/ShoppingCartContext";
+import logo from "/public/logo2.png";
 
 import Marquee from "./Marquee";
 
@@ -72,7 +73,7 @@ const Navbar = () => {
           )}
         </div>
         <div className="main-logo">
-          <img src="/logo2.png" className="-nav-logo"></img>
+          <img src={logo} className="-nav-logo"></img>
         </div>
 
         <div className="nav-cart-container">

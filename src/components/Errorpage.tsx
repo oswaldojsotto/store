@@ -1,4 +1,3 @@
-import React from "react";
 import errorpage from "/public/error.svg";
 
 type Props = {};

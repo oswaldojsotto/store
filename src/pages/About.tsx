@@ -3,9 +3,11 @@ import wave from "/aboutwave.svg";
 import person11 from "/person11.jpg";
 import person12 from "/person12.jpg";
 import person13 from "/person13.jpg";
+import task1 from "/task1.svg";
+import task2 from "/task2.svg";
+import task3 from "/task3.svg";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
-import { NONAME } from "dns";
 
 const About = () => {
   const [open, setOpen] = useState(false);
@@ -63,7 +65,7 @@ const About = () => {
                 openModal(
                   "Quentin Tarantino",
                   "Oklahoma Research University",
-                  "Quentin Jerome Tarantino (/ˌtærənˈtiːnoʊ/; born March 27, 1963)[1] is an American filmmaker, author, and actor. His films are characterized by frequent references to popular culture and film genres, non-linear storylines, dark humor, stylized violence, extended dialogue, pervasive use of profanity, cameos and ensemble casts. Other directorial tropes that identify his style include the use of songs from the 1960s and 70s, fictional brand parodies, and imagery of women's bare feet. "
+                  "Quentin Jerome Tarantino (/ˌtærən'ti:noʊ/; born March 27, 1963)[1] is an American filmmaker, author, and actor. His films are characterized by frequent references to popular culture and film genres, non-linear storylines, dark humor, stylized violence, extended dialogue, pervasive use of profanity, cameos and ensemble casts. Other directorial tropes that identify his style include the use of songs from the 1960s and 70s, fictional brand parodies, and imagery of women's bare feet. "
                 )
               }>
               View Bio
@@ -95,7 +97,7 @@ const About = () => {
                 openModal(
                   "Lana Del Rey",
                   "Venezuela Central University",
-                  "Elizabeth Woolridge Grant (born June 21, 1985), known professionally as Lana Del Rey, is an American singer-songwriter. Her music is noted for its cinematic quality and exploration of tragic romance, glamour, and melancholia, with frequent references to contemporary pop culture and 1950s–1960s Americana.[1] She is the recipient of various accolades, including two Brit Awards, two MTV Europe Music Awards, and a Satellite Award, in addition to nominations for six Grammy Awards and a Golden Globe Award.[2] Variety honored her at their Hitmakers Awards for being one of the most influential singer-songwriters of the 21st century."
+                  "Elizabeth Woolridge Grant (born June 21, 1985), known professionally as Lana Del Rey, is an American singer-songwriter. Her music is noted for its cinematic quality and exploration of tragic romance, glamour, and melancholia, with frequent references to contemporary pop culture and 1950s-1960s Americana.[1] She is the recipient of various accolades, including two Brit Awards, two MTV Europe Music Awards, and a Satellite Award, in addition to nominations for six Grammy Awards and a Golden Globe Award.[2] Variety honored her at their Hitmakers Awards for being one of the most influential singer-songwriters of the 21st century."
                 )
               }>
               View Bio
@@ -119,12 +121,12 @@ const About = () => {
             </p>
           </article>
           <div className="mission-img-container">
-            <img src="/public/task1.svg" alt="" className="mission-img" />
+            <img src={task1} alt="" className="mission-img" />
           </div>
         </div>
         <div className="about-second-mission">
           <div className="mission-img-container">
-            <img src="/public/task2.svg" alt="" className="mission-img" />
+            <img src={task2} alt="" className="mission-img" />
           </div>
           <article className="first-mission-info">
             <p className="mission-info-title">Second Law</p>
@@ -151,7 +153,7 @@ const About = () => {
             </p>
           </article>
           <div className="mission-img-container">
-            <img src="/public/task3.svg" alt="" className="mission-img" />
+            <img src={task3} alt="" className="mission-img" />
           </div>
         </div>
         <div className="transfer"></div>

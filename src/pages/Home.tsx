@@ -12,6 +12,7 @@ import image from "/undraw_wishlist3.svg";
 import iphone from "/public/iphone.jpg";
 import wave from "/wave.svg";
 import wave2 from "/wave2.svg";
+
 import "swiper/css/pagination";
 import "swiper/css";
 import { Link } from "react-router-dom";

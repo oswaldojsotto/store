@@ -27,7 +27,7 @@ const SwipperItem = ({
   return (
     <div className="swipper-container">
       <div className="swipper-img-container">
-        <img alt="customer1" src={photo} className="swipper-img"></img>
+        <img alt="customer-photo" src={photo} className="swipper-img"></img>
       </div>
       <div className="swipper-text-container">
         <h3 className="swipper-stars-rating">{starCounter}</h3>

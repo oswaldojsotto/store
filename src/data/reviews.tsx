@@ -1,3 +1,8 @@
+import person1 from "/person1.jpg";
+import person2 from "/person2.jpg";
+import person3 from "/person3.jpg";
+import person4 from "/person4.jpg";
+
 export const reviews: {
   name: string;
   stars: number;
@@ -15,7 +20,7 @@ export const reviews: {
       "Lorem ipsum dolor sit amet consectetur adipisicing elit.r modi minus excepturi!",
     city: "Caracas",
     country: "Venezuela",
-    photo: "/person1.jpg",
+    photo: person1,
   },
   {
     name: "Corimar Del Duca",
@@ -25,7 +30,7 @@ export const reviews: {
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempora ratione iste repellendus, veniam impedit, aliquam sequi nam atque vitae deserunt officiis.",
     city: "Rome",
     country: "Italy",
-    photo: "/person2.jpg",
+    photo: person2,
   },
   {
     name: "Carl Sagan",
@@ -35,7 +40,7 @@ export const reviews: {
       "Lorem ipsum dolor sit amet consectetur adipisicing elit.r modi minus excepturi! adipisicing elit. Exercitationem!",
     city: "Chicago",
     country: "USA",
-    photo: "/person4.jpg",
+    photo: person4,
   },
   {
     name: "Kath Loren Smith",
@@ -45,7 +50,7 @@ export const reviews: {
       "Lorem ipsum dolor sit amet consectetur adipisicing elit.r modi minus excepturi!",
     city: "Santiago",
     country: "Chile",
-    photo: "/person3.jpg",
+    photo: person3,
   },
 ];
 
